@@ -3,12 +3,12 @@
         "target": "ESNext",
         "module": "CommonJS",
         "lib": ["ESNext"],
-        "types": ["node"],
+        "types": ["jest", "node"],
         "esModuleInterop": true,
         "moduleResolution": "node",
         "skipLibCheck": true,
         "strict": true
     },
-    "include": ["**/*.ts"],
+    "include": ["**/*.ts", "jest.config.js"],
     "exclude": ["node_modules"]
 }

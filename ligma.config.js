@@ -1,3 +1,15 @@
+// module.exports = {
+//     dsa: [
+//         "InsertionSort",
+//         "MergeSort",
+//         "Queue",
+//         "Stack",
+//         "QuickSort",
+//         "DijkstraList",
+//         "PrimsList",
+//     ],
+// };
+
 module.exports = {
     dsa: [
         "DFSOnBST",
@@ -25,5 +37,4 @@ module.exports = {
         "Map",
         "MinHeap",
     ],
-}
-
+};
